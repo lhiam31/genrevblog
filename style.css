@@ -1,0 +1,123 @@
+/* styles.css */
+
+/* Center all content */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure full height */
+    margin: 20px;
+  }
+  
+  .carousel-inner img {
+    width: calc(55% + 5px); /* Increase width by 10px */
+    margin-left: 300px; /* Adjust the negative margin to center the image */
+    
+  }
+  
+  
+  /* style.css */
+
+/* Bold and readable paragraph styles */
+p {
+    font-weight: bold; /* Make the text bold */
+    font-size: 17px; /* Adjust the font size for readability */
+    line-height: 1.5; /* Set the line height for better readability */
+    transform: skew(-10deg); 
+  }
+h1{
+    font-weight: bolder;
+    font-size: 35px;
+    text-decoration: underline;
+    
+}  
+.heading {
+    text-align: center;
+    }
+  
+header {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #424040;
+    color: #fff;
+    font-size: 45px;
+    font-weight: bolder;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(7, 7, 7, 0.87);
+}
+
+.blog-entry {
+  padding: 21px;
+  background-color: #f3e6e6;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px 4px rgba(7, 7, 7, 0.87);
+}
+.image-description {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    position: absolute;
+    bottom: 0px; /* Start from the bottom */
+    left: 641px;
+    transform: translateX(-60%) translateY(100%); /* Initially hidden below */
+    width: 55%;
+    max-height: 100%; /* Limit maximum height to 50% of the container */
+    overflow: hidden; /* Prevent overflow */
+    background-color: rgba(0, 0, 0, 0.692); /* Semi-transparent background */
+    color: white;
+    padding: 110px; /* Adjust padding as needed */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .item:hover .image-description {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0); /* Move up from the bottom */
+  }
+  
+  /* Adjust the position of left control */
+.left.carousel-control {
+    top: 600px; /* Align at the vertical center */
+    transform: translateY(-50%);
+    bottom: auto; /* Remove bottom positioning */
+    color: rgb(14, 15, 15);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Adjust the position of right control */
+  .right.carousel-control {
+    top: 600px; /* Align at the vertical center */
+    transform: translateY(-50%);
+    bottom: auto; /* Remove bottom positioning */
+    color: rgb(14, 15, 15);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    
+  }
+  
+.carousel-control:hover {
+    /* Adjust shadow on hover if needed */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  .image-container{
+    position: relative;
+  }
+/* ... (Your previous CSS) ... */
+
+/* Ensure 'CORDOVA PLAZA' is on a separate line from the paragraph */
+.big-text {
+    font-weight: bolder;
+    font-size: 25px;
+    margin: 20px; 
+    text-decoration-color: beige;  }
+  
+  /* ... (Your remaining CSS) ... */
+
+  
+  
+  
+  
+  
+  
+  
